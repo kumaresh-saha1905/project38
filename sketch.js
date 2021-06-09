@@ -67,7 +67,8 @@ function draw() {
  fill("pink");
   
  text("you have two chance of survive from the attack of monster",windowWidth/2.7,car.y+50+40);
-
+fill("cyan");
+ text("------------------------------------------------------------------------------",windowWidth/2.7,car.y+50+40+8)
  c1();
   c2();
   enemy();
